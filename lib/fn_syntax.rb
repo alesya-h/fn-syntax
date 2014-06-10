@@ -7,7 +7,7 @@ module FnSyntax
       self._args_ = args
     end
 
-    (1..10).each do |n|
+    (1..9).each do |n|
       define_method "_#{n}" do
         self._args_[n-1]
       end
