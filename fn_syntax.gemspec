@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["me@aguzik.net"]
   spec.summary       = %q{Lambda shorthand: fn{ _1 * 2 } }
   spec.description   = %q{Adds fn method to define anonymous functions with arguments available as _1, _2, _3 upto _9}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/alesguzik/fn-syntax"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
