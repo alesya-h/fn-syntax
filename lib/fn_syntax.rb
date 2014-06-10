@@ -20,8 +20,8 @@ module FnSyntax
 
   module ::Kernel
     def fn(&block)
-      proc do |*args|
-        FnObject.new(args).instance_exec &block
+      lambda do |*args|
+        FnObject.new(args).instance_exec *args, &block
       end
     end
   end
