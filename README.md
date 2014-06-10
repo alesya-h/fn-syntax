@@ -20,7 +20,7 @@ Or install it yourself as:
 
     require 'fn_syntax'
     times_four = fn{ _1 * 4 }
-    (1..5).map &times_four
+    (1..5).map &times_four # => [4, 8, 12, 16, 20]
 
 ## Contributing
 
